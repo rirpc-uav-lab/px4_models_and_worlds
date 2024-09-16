@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'models_and_worlds'
+package_name = 'px4_models_and_worlds'
 
 setup(
     name=package_name,
