@@ -12,7 +12,7 @@
     </include>
     <include merge='true'>
       <uri>model://mono_cam_down</uri>
-      <pose>.06 .03 .242 0 90 0</pose>
+      <pose degrees="true">.00 .00 .15 0 90 0</pose>
       <name>mono_cam_down</name>
     </include>
     <joint name="CameraForwardJoint1" type="fixed">
