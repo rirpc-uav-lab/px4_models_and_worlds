@@ -261,7 +261,7 @@
 
     <include>
       <uri>model://aruco_688</uri>
-      <pose relative_to='world'>80 0 0 0 0 0</pose>
+      <pose relative_to='world'>81 1 0 0 0 0</pose>
       <name>aruco1</name>
     </include>
     <!-- <include>
