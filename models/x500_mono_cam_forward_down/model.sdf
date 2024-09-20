@@ -15,6 +15,11 @@
       <pose degrees="true">.00 .00 .15 0 90 0</pose>
       <name>mono_cam_down</name>
     </include>
+    <include merge='true'>
+      <uri>model://laser_rangefinder</uri>
+      <pose degrees="true">0 0 .15 0 90 0</pose>
+      <name>uav1/laser_rangefinder</name>
+    </include>
     <joint name="CameraForwardJoint1" type="fixed">
       <parent>base_link</parent>
       <child>mono_cam/base_link</child>
@@ -24,6 +29,11 @@
       <parent>base_link</parent>
       <child>mono_cam_down/base_link</child>
       <pose relative_to="base_link" degrees="true">.06 .03 .242 0 0 0</pose>
+    </joint>
+    <joint name="RangeFinderJoint" type="fixed">
+      <parent>base_link</parent>
+      <child>laser_rangefinder/base_link</child>
+      <pose relative_to="base_link" degrees="true">.0 .0 .242 0 0 0</pose>
     </joint>
   </model>
 </sdf>
