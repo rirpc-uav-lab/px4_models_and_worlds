@@ -248,7 +248,7 @@
         <pose relative_to='world'>80 0 2 0 0 0</pose>
         <name>uav1</name>
     </include>
-    <!-- <include>
+    <include>
         <uri>model://x500_mono_cam_forward_down</uri>
         <pose relative_to='world'>80 4 2 0 0 0</pose>
         <name>uav2</name>
@@ -257,14 +257,14 @@
         <uri>model://x500_mono_cam_forward_down</uri>
         <pose relative_to='world'>80 8 2 0 0 0</pose>
         <name>uav3</name>
-    </include> -->
+    </include>
 
     <include>
       <uri>model://aruco_688</uri>
       <pose relative_to='world'>81 1 0 0 0 0</pose>
       <name>aruco1</name>
     </include>
-    <!-- <include>
+    <include>
       <uri>model://aruco_688</uri>
       <pose relative_to='world'>80 4 0 0 0 0</pose>
       <name>aruco2</name>
@@ -273,7 +273,7 @@
       <uri>model://aruco_688</uri>
       <pose relative_to='world'>80 8 0 0 0 0</pose>
       <name>aruco3</name>
-    </include> -->
+    </include>
 
   </world>
 </sdf>
