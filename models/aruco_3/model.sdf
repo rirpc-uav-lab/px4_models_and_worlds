@@ -6,7 +6,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>5 5 5</scale>
+            <scale>2 2 2</scale>
             <uri>model://aruco_3/meshes/marker.stl</uri>
           </mesh>
            <surface>
@@ -22,7 +22,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <scale>5 5 5</scale>
+            <scale>2 2 2</scale>
             <uri>model://aruco_3/meshes/marker.dae</uri>
           </mesh>
         </geometry>
