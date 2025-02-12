@@ -234,8 +234,10 @@
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
       <world_frame_orientation>ENU</world_frame_orientation>
-      <latitude_deg>47.397971057728974</latitude_deg>
-      <longitude_deg> 8.546163739800146</longitude_deg>
+      <latitude_deg>47.280858</latitude_deg>
+      <longitude_deg>38.938235</longitude_deg>
+      <!-- <latitude_deg>47.397971057728974</latitude_deg>
+      <longitude_deg> 8.546163739800146</longitude_deg> -->
       <elevation>0</elevation>
     </spherical_coordinates>
     <include>
@@ -245,17 +247,17 @@
 
     <include>
         <uri>model://x500_mono_cam_forward_down</uri>
-        <pose relative_to='world'>80 0 2 0 0 0</pose>
+        <pose relative_to='world'>80 0 0.1 0 0 0</pose>
         <name>uav1</name>
     </include>
     <include>
         <uri>model://x500_mono_cam_forward_down</uri>
-        <pose relative_to='world'>80 4 2 0 0 0</pose>
+        <pose relative_to='world'>80 4 0.1 0 0 0</pose>
         <name>uav2</name>
     </include>
     <include>
         <uri>model://x500_mono_cam_forward_down</uri>
-        <pose relative_to='world'>80 8 2 0 0 0</pose>
+        <pose relative_to='world'>80 8 0.1 0 0 0</pose>
         <name>uav3</name>
     </include>
 
@@ -274,6 +276,10 @@
       <pose relative_to='world'>80 8 0 0 0 0</pose>
       <name>aruco3</name>
     </include>
-
+    <include>
+      <uri>model://aruco_777</uri>
+      <pose relative_to='world'>50 5 0 0 0 0</pose>
+      <name>aruco777</name>
+    </include>
   </world>
 </sdf>
